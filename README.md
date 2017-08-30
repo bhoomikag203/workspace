@@ -22,3 +22,16 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+$bundle install --without production
+
+next ,migrate the database:
+
+$rails db:migrate
+
+finally ,run the test suite to verfy that everything is working correctly
+
+$rails test
+
+if the text suite passes ,you'll be ready to run the app in local sever
+
+$rails server
